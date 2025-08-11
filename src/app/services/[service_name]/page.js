@@ -48,7 +48,9 @@ export default async function serviceDetail({ params }) {
         alt='Discussion'
       />
       <Section fillBg>
-        <h3 className='text-center'>{serviceData.description}</h3>
+        <h3 className='text-center' data-aos='zoom-out'>
+          {serviceData.description}
+        </h3>
       </Section>
       <Section>
         <SectionTitle title={serviceData.keyTitle} subtitle={serviceData.keyDescription} />
@@ -71,7 +73,7 @@ export default async function serviceDetail({ params }) {
                 }}
                 minWidth={{ xs: 300, md: "auto" }}
                 key={`${index}_${keyPoint.title}`}
-                data-aos='fade-up'
+                data-aos='zoom-in'
                 data-aos-delay={index * 100}
               >
                 <CoreValue

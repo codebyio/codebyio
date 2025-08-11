@@ -90,7 +90,11 @@ export default function Home() {
           sx={{ overflowX: { xs: "auto", md: "hidden" } }}
           width='100%'
         >
-          <Grid2 size={{ xs: 12, sm: 6, md: 3, lg: 3 }} minWidth={{ xs: 300, md: "auto" }}>
+          <Grid2
+            size={{ xs: 12, sm: 6, md: 3, lg: 3 }}
+            minWidth={{ xs: 300, md: "auto" }}
+            data-aos='zoom-in'
+          >
             <CtaCard
               title='Website Development'
               subtitle='From company profiles to e-commerce, we build websites that feel right and run fast'
@@ -98,7 +102,12 @@ export default function Home() {
               href='/services/website-development'
             />
           </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 3, lg: 3 }} minWidth={{ xs: 300, md: "auto" }}>
+          <Grid2
+            size={{ xs: 12, sm: 6, md: 3, lg: 3 }}
+            minWidth={{ xs: 300, md: "auto" }}
+            data-aos='zoom-in'
+            data-aos-delay='100'
+          >
             <CtaCard
               title='Website Mockup'
               subtitle='See your website before it’s built. Mockups help us align on design and experience'
@@ -106,7 +115,12 @@ export default function Home() {
               href='/services/website-mockup'
             />
           </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 3, lg: 3 }} minWidth={{ xs: 300, md: "auto" }}>
+          <Grid2
+            size={{ xs: 12, sm: 6, md: 3, lg: 3 }}
+            minWidth={{ xs: 300, md: "auto" }}
+            data-aos='zoom-in'
+            data-aos-delay='200'
+          >
             <CtaCard
               title='Tech Consultancy'
               subtitle='From hosting to hiring, we help you make smart decisions that grow with your product'
@@ -114,7 +128,12 @@ export default function Home() {
               href='/services/tech-consultancy'
             />
           </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 3, lg: 3 }} minWidth={{ xs: 300, md: "auto" }}>
+          <Grid2
+            size={{ xs: 12, sm: 6, md: 3, lg: 3 }}
+            minWidth={{ xs: 300, md: "auto" }}
+            data-aos='zoom-in'
+            data-aos-delay='300'
+          >
             <CtaCard
               title='One-Stop Solution'
               subtitle='Already have a  live site? We add features, fix bugs, and improve things, no full rebuild needed'

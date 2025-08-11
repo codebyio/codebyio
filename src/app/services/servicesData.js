@@ -173,7 +173,7 @@ export const services = [
     name: "Website Mockup",
     metaDescription:
       "Visualize your website before development begins. Our mockups show layout, structure, and user flow to support better decisions.",
-    image: WEBSITE_DEVELOPMENT,
+    image: WEBSITE_MOCKUP,
     heroBannerTitle: `
       *See* it before you *build* it
     `,
@@ -295,7 +295,7 @@ export const services = [
     name: "Tech Consultancy",
     metaDescription:
       "Plan smarter with the right tech stack and structure. CodebyIO helps align systems, tools, and team roles to support digital growth.",
-    image: WEBSITE_DEVELOPMENT,
+    image: TECH_CONSULTANCY,
     heroBannerTitle: `
       Build with a clear *plan*. Move with the *right* decision
     `,
@@ -420,7 +420,7 @@ export const services = [
     name: "One-Stop Solution",
     metaDescription:
       "Fix bugs, add features, or improve your website without starting over. CodebyIO offers focused updates that keep your site running smoothly.",
-    image: WEBSITE_DEVELOPMENT,
+    image: ONESTOP_SOLUTION,
     heroBannerTitle: `
       Think of it like a *pit stop*
     `,

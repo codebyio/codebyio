@@ -78,6 +78,7 @@ body {
   margin: 0px;
   font-family: "Roboto";
   background-color: #f8f3f7;
+  overflow-x: hidden;
 }
 main {
   min-height: 100dvh;

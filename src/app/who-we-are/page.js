@@ -42,13 +42,21 @@ export default function Home() {
           sx={{ overflowX: { xs: "auto", md: "hidden" } }}
           width='100%'
         >
-          <Grid2 size={{ xs: 12, sm: 6, md: 6 }} minWidth={{ xs: 280, sm: 300, md: "auto" }}>
+          <Grid2
+            size={{ xs: 12, sm: 6, md: 6 }}
+            minWidth={{ xs: 280, sm: 300, md: "auto" }}
+            data-aos='fade-right'
+          >
             <WindowCard
               title='Vision'
               body='We imagine a digital world where businesses feel confident about what they build. Our role is to bring clarity, care, and professionalism into every step, so each solution is created with purpose and direction.'
             />
           </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 6 }} minWidth={{ xs: 280, sm: 300, md: "auto" }}>
+          <Grid2
+            size={{ xs: 12, sm: 6, md: 6 }}
+            minWidth={{ xs: 280, sm: 300, md: "auto" }}
+            data-aos='fade-left'
+          >
             <WindowCard
               title='Mission'
               body='We help businesses build digital solutions with confidence. We work through clear structure, open communication, and consistent collaboration. Our process is made to guide ideas into results that feel aligned, purposeful, and easy to understand.'
@@ -64,25 +72,25 @@ export default function Home() {
           </Grid2>
           <Grid2 size={{ xs: 12, sm: 12, md: 12, lg: 7 }}>
             <Grid2 container spacing={2}>
-              <Grid2 size={{ xs: 12, md: 6 }}>
+              <Grid2 size={{ xs: 12, md: 6 }} data-aos='zoom-in'>
                 <CoreValue
                   title='Care in Every Step'
                   description='We give every part of the process the attention it deserves. Nothing is rushed, and nothing is treated like a formality'
                 />
               </Grid2>
-              <Grid2 size={{ xs: 12, md: 6 }}>
+              <Grid2 size={{ xs: 12, md: 6 }} data-aos='zoom-in' data-aos-delay='100'>
                 <CoreValue
                   title='Professional in Practice'
                   description='We work with structure and transparency, so clients always know where things stand and what comes next. Communication stays clear, the process stays on track'
                 />
               </Grid2>
-              <Grid2 size={{ xs: 12, md: 6 }}>
+              <Grid2 size={{ xs: 12, md: 6 }} data-aos='zoom-in' data-aos-delay='200'>
                 <CoreValue
                   title='Build with Purpose'
                   description='We prioritize results that align with your goals. What we build is made to last, not just to launch'
                 />
               </Grid2>
-              <Grid2 size={{ xs: 12, md: 6 }}>
+              <Grid2 size={{ xs: 12, md: 6 }} data-aos='zoom-in' data-aos-delay='300'>
                 <CoreValue
                   title='Work Like a Partner'
                   description='We guide the process with structure and clarity, making sure every decision feels informed, aligned, and built on trust'

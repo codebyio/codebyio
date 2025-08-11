@@ -10,8 +10,13 @@ const SectionTitle = ({ title, subtitle, horizontalStyle, inverted }) => {
       <h2
         className={classes["section-title"]}
         dangerouslySetInnerHTML={{ __html: title ?? "" }}
+        data-aos='fade-down'
       ></h2>
-      {subtitle && <p className={classes["section-subtitle"]}>{subtitle}</p>}
+      {subtitle && (
+        <p className={classes["section-subtitle"]} data-aos='fade-up' data-aos-delay='150'>
+          {subtitle}
+        </p>
+      )}
     </div>
   );
 };

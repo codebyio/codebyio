@@ -8,7 +8,7 @@ const CtaButton = ({ message, href = "#", withIcon }) => {
       href={href}
       className={classes["cta-btn__wrapper"]}
       data-aos='fade-up'
-      data-aos-delay='400'
+      data-aos-delay='100'
     >
       <button className={classes["cta-btn"]}>
         {message} {withIcon && <MdKeyboardArrowRight fontSize='1.25rem' />}
