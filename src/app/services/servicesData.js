@@ -178,10 +178,10 @@ export const services = [
       *See* it before you *build* it
     `,
     heroBannerDescription: `
-      Our mockup service helps you visualize your idea, so you can move forward with confidence.
+      Our Website Mockup service helps you visualize your idea, so you can move forward with confidence.
     `,
     description: `
-      Every website starts with a vision. Mockups help you see it clearly before anything is built.
+      Every website starts with a vision. Website Mockups help you see it clearly before anything is built.
       With a structured approach and a sharp eye for flow, we design mockups that translate your ideas into a working visual — ready to test, refine, and build on.
       This helps you make confident decisions, reduce unnecessary revisions, and move forward with clarity from day one.
     `,
@@ -276,17 +276,17 @@ export const services = [
         question:
           "Do I have to continue the website development with CodebyIO if I start a mockup with you?",
         answer:
-          "Not at all. Our mockup service stands on its own. You’re free to take the final design and build it elsewhere. But if you decide to build with us too, we offer more efficient pricing when you bundle both services.",
+          "Not at all. Our Website Mockup service stands on its own. You’re free to take the final design and build it elsewhere. But if you decide to build with us too, we offer more efficient pricing when you bundle both services.",
       },
       {
         question: "Is the mockup final, or can I make a revision?",
         answer:
-          "Revisions are part of the process. We always make space for feedback and adjustments. That way, the final mockup reflects what you actually want, not just what you asked for on day one.",
+          "Revisions are part of the process. We always make space for feedback and adjustments. That way, the final Website Mockup reflects what you actually want, not just what you asked for on day one.",
       },
       {
         question: "Can this mockup be used directly by developers?",
         answer:
-          "Yes. Our mockups are made to be developer-ready; structured, organized, and built with the final build in mind. You can pass them to any developer, and they’ll know exactly what to build.",
+          "Yes. Our Website Mockups are made to be developer-ready; structured, organized, and built with the final build in mind. You can pass them to any developer, and they’ll know exactly what to build.",
       },
     ],
   },
@@ -422,14 +422,14 @@ export const services = [
       "Fix bugs, add features, or improve your website without starting over. CodebyIO offers focused updates that keep your site running smoothly.",
     image: ONESTOP_SOLUTION,
     heroBannerTitle: `
-      Think of it like a *pit stop*
+      Think of it like a *Pit Stop*
     `,
     heroBannerDescription: `
       A quick, focused support to keep your site running smoothly.
     `,
     description: `
       When you only need one thing done right, we handle it with precision.
-      Our one-stop solution covers focused updates. Such as, fixing bugs, adding features, improving pages, or integrating third-party tools.
+      Our One-Stop Solution covers focused updates. Such as, fixing bugs, adding features, improving pages, or integrating third-party tools.
       It’s expert support without a full rebuild, so your site stays fast, functional, and moving forward.
     `,
     keyTitle: "How the Pit Stop Works",

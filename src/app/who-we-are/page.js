@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <HeroBanner
         title='Who We Are'
-        subtitle='Delivering innovative web solutions and data-driven marketing strategies to help businesses grow.'
+        subtitle='More than developers, we are your digital partners. We guide, challenge, and grow together with you.'
         alt='Hero Banner'
       />
       <Section>
@@ -30,8 +30,7 @@ export default function Home() {
           Everything we build is designed to fit your identity and goals. We combine clean code with
           clear communication to turn early-stage ideas into fully functional digital experiences.
           Every solution is collaborative, thoughtful, and focused on what works — technically and
-          strategically. More than developers, we are your digital partners. We guide, challenge,
-          and grow together with you.
+          strategically.
         </h3>
       </Section>
       <Section>
@@ -81,7 +80,7 @@ export default function Home() {
               <Grid2 size={{ xs: 12, md: 6 }} data-aos='zoom-in' data-aos-delay='100'>
                 <CoreValue
                   title='Professional in Practice'
-                  description='We work with structure and transparency, so clients always know where things stand and what comes next. Communication stays clear, the process stays on track'
+                  description='We work with structure and transparency, so partners always know where things stand and what comes next. Communication stays clear, the process stays on track'
                 />
               </Grid2>
               <Grid2 size={{ xs: 12, md: 6 }} data-aos='zoom-in' data-aos-delay='200'>

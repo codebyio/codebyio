@@ -81,7 +81,7 @@ export default function Home() {
       <Section position='center'>
         <SectionTitle
           title='Our Digitalization Solutions'
-          subtitle='We provide a variety of digital solutions that include web design, app development, digital marketing and more'
+          subtitle='We provide a variety of digital solutions that include web design, app development, and more'
         />
         <Grid2
           container

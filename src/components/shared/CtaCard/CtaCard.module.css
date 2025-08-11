@@ -9,7 +9,7 @@
   background: var(--primary-blue-color-darker);
 }
 .cta-card * {
-  color: #fff;
+  color: var(--secondary-color);
 }
 .cta-card > a {
   display: flex;
