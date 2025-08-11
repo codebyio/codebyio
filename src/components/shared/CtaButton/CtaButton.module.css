@@ -1,0 +1,21 @@
+.cta-btn__wrapper {
+  display: inline-block;
+  text-decoration: none;
+}
+.cta-btn {
+  display: flex;
+  gap: 0.5rem;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "JetsBrain";
+  transition: 0.3s;
+}
+.cta-btn:hover {
+  color: var(--primary-blue-color);
+  background-color: var(--secondary-color);
+}

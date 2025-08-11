@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100;
+  src: url("../../public/fonts/Roboto/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("../../public/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../../public/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("../../public/fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 600;
+  src: url("../../public/fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../../public/fonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 100;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-Thin.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 200;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 300;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-Light.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 400;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-Regular.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 500;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-Medium.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 600;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-Bold.ttf");
+}
+@font-face {
+  font-family: "JetsBrain";
+  font-weight: 700;
+  src: url("../../public/fonts/JetsBrainMono/JetBrainsMono-ExtraBold.ttf");
+}
+
+:root {
+  --primary-blue-color: #1a3358;
+  --primary-blue-color-darker: #162a4a;
+  --primary-green-color: #00a5a7;
+  --secondary-color: #f8f3f7;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  background-color: #f8f3f7;
+}
+main {
+  min-height: 100dvh;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.text-start {
+  text-align: left !important;
+}
+.text-end {
+  text-align: right !important;
+}
+.text-primary {
+  color: var(--primary-blue-color) !important;
+}
+.text-primary-g {
+  color: var(--primary-green-color) !important;
+}
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.p-0 {
+  padding: 0px !important;
+}
+@media only screen and (min-width: 876px) {
+  .desktop-view {
+    display: block !important;
+  }
+  .desktop-view.flex {
+    display: flex !important;
+  }
+  .mobile-view {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 875px) {
+  .desktop-view {
+    display: none !important;
+  }
+  .mobile-view {
+    display: block !important;
+  }
+  .mobile-view.flex {
+    display: flex !important;
+  }
+}

@@ -1,0 +1,39 @@
+.core-value {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-blue-color);
+  padding: 20px;
+  gap: 1rem;
+  border-radius: 10px;
+  height: 100%;
+}
+.core-value__title {
+  text-align: center;
+}
+.core-value__title > span {
+  display: inline-block;
+  font-family: "JetsBrain";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -1px;
+  color: var(--primary-green-color);
+}
+.core-value__description > p {
+  margin: 0px;
+  color: var(--secondary-color);
+  height: 85px;
+  text-align: center;
+  line-height: 24px;
+}
+.core-value__description > p a {
+  color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 603px) {
+  .core-value {
+    flex-direction: column;
+  }
+  .core-value__description > p {
+    height: 100px;
+  }
+}

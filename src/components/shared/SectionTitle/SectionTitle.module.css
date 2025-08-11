@@ -1,0 +1,45 @@
+.section-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.section-title-wrapper.horizontal-style {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.section-title-wrapper.horizontal-style .section-title,
+.section-title-wrapper.horizontal-style .section-subtitle {
+  flex: 1;
+}
+.section-title-wrapper.horizontal-style .section-subtitle {
+  text-align: right;
+}
+.section-title {
+  font-family: "JetsBrain";
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--primary-blue-color);
+  margin: 0px;
+}
+.section-title-wrapper.inverted .section-title {
+  color: #ffffff;
+}
+.section-subtitle {
+  color: var(--primary-green-color);
+  margin: 0px;
+}
+@media only screen and (max-width: 603px) {
+  .section-title-wrapper.horizontal-style {
+    flex-direction: column;
+  }
+  .section-title-wrapper {
+    align-items: flex-start;
+  }
+  .section-title-wrapper.horizontal-style .section-subtitle {
+    text-align: left;
+  }
+}
