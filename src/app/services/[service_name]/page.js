@@ -56,6 +56,7 @@ export default async function serviceDetail({ params }) {
           container
           spacing={{ xs: 2, sm: 2, md: 2 }}
           flexWrap={{ xs: "nowrap", md: "wrap" }}
+          overflow={{ md: "hidden" }}
           sx={{ overflowX: { xs: "auto", md: "hidden" } }}
           width='100%'
         >
@@ -70,6 +71,8 @@ export default async function serviceDetail({ params }) {
                 }}
                 minWidth={{ xs: 300, md: "auto" }}
                 key={`${index}_${keyPoint.title}`}
+                data-aos='fade-up'
+                data-aos-delay={index * 100}
               >
                 <CoreValue
                   title={keyPoint.title}

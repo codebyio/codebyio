@@ -11,8 +11,11 @@ const StepList = ({ steps, inverted }) => {
                 <span className={classes["steplist__index-value"]}>{index + 1}</span>
               </div>
               <div className={classes["steplist__item-content"]}>
-                <h2>{step.title}</h2>
-                <p dangerouslySetInnerHTML={{ __html: step.description ?? "" }}></p>
+                <h2 data-aos='fade-up'>{step.title}</h2>
+                <p
+                  data-aos='fade-up'
+                  dangerouslySetInnerHTML={{ __html: step.description ?? "" }}
+                ></p>
               </div>
             </article>
           );

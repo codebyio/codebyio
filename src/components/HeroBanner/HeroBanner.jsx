@@ -20,8 +20,14 @@ const HeroBanner = ({ title, subtitle, img, video, alt, href, subtitleType }) =>
         </video>
       )}
       <div>
-        <h1 className={classes["hero-banner__title"]}>{title}</h1>
-        <h2 className={`${classes["hero-banner__subtitle"]} ${classes[subtitleType]}`}>
+        <h1 className={classes["hero-banner__title"]} data-aos='fade-up'>
+          {title}
+        </h1>
+        <h2
+          className={`${classes["hero-banner__subtitle"]} ${classes[subtitleType]}`}
+          data-aos='fade-up'
+          data-aos-delay='200'
+        >
           {subtitle}
         </h2>
         <Image

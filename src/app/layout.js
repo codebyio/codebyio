@@ -1,5 +1,6 @@
 import Header from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
+import AOSWrapper from "@/components/AOSWrapper/AOSWrapper";
 import "./globals.css";
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <Header />
+        <AOSWrapper />
         <main>{children}</main>
         <Footer />
       </body>

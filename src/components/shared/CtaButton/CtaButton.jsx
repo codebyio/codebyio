@@ -4,7 +4,12 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const CtaButton = ({ message, href = "#", withIcon }) => {
   return (
-    <Link href={href} className={classes["cta-btn__wrapper"]}>
+    <Link
+      href={href}
+      className={classes["cta-btn__wrapper"]}
+      data-aos='fade-up'
+      data-aos-delay='400'
+    >
       <button className={classes["cta-btn"]}>
         {message} {withIcon && <MdKeyboardArrowRight fontSize='1.25rem' />}
       </button>
