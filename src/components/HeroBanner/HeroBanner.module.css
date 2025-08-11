@@ -39,6 +39,7 @@
   width: 80%;
   margin: 0px auto 1.875rem auto;
   color: var(--secondary-color);
+  padding: 10px;
 }
 .hero-banner__subtitle.short {
   width: 100%;

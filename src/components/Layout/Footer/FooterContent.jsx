@@ -27,24 +27,24 @@ const FooterContent = ({ variant }) => {
             <ul>
               <li>Services</li>
               <li>
-                <a href='#' className={classes["footer__nav-link"]}>
+                <Link href='/services/website-development' className={classes["footer__nav-link"]}>
                   Website Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#' className={classes["footer__nav-link"]}>
+                <Link href='/services/website-mockup' className={classes["footer__nav-link"]}>
                   Website Mockup
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#' className={classes["footer__nav-link"]}>
-                  Digital Marketing
-                </a>
-              </li>
-              <li>
-                <a href='#' className={classes["footer__nav-link"]}>
+                <Link href='/services/tech-consultancy' className={classes["footer__nav-link"]}>
                   Tech Consultancy
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/services/onestop-solution' className={classes["footer__nav-link"]}>
+                  One-Stop Solution
+                </Link>
               </li>
             </ul>
             <ul>
