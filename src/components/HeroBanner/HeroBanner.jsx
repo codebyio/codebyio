@@ -15,7 +15,7 @@ const HeroBanner = ({ title, subtitle, img, video, alt, href, subtitleType }) =>
         />
       )}
       {video && (
-        <video autoPlay muted loop className={classes["hero-banner__img"]}>
+        <video autoPlay muted loop playsInline className={classes["hero-banner__img"]}>
           <source src='/assets/videos/HOME.mp4' />
         </video>
       )}
