@@ -15,6 +15,23 @@ import StepList from "@/components/shared/StepList/StepList";
 import KeyPoint from "@/components/KeyPoint/KeyPoint";
 import CoreValue from "@/components/shared/CoreValue/CoreValue";
 
+export async function generateMetadata({ params }) {
+  const { service_name } = params;
+  const serviceData = services.find((service) => service.id === service_name);
+
+  if (!serviceData) {
+    return {
+      title: "Service Not Found",
+      description: "Sorry, this service does not exist.",
+    };
+  }
+
+  return {
+    title: `CodeByIO | ${serviceData.name}`,
+    description: serviceData.heroBannerDescription,
+  };
+}
+
 export default async function serviceDetail({ params }) {
   const { service_name } = params;
   const serviceData = services.find((service) => service.id === service_name);

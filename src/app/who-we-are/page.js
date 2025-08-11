@@ -4,11 +4,16 @@ import Grid2 from "@mui/material/Grid2";
 import HeroBanner from "@/components/HeroBanner/HeroBanner";
 import CtaSection from "@/components/shared/CtaSection/CtaSection";
 import Section from "@/components/shared/Section/Section";
-import SectionTitle from "@/components/shared/SectionTitle/SectionTitle";
 import WindowCard from "@/components/shared/WindowCard/WindowCard";
 import CoreValue from "@/components/shared/CoreValue/CoreValue";
 
 import CORE_VALUES from "../../../public/assets/images/CORE_VALUES.png";
+
+export const metadata = {
+  title: "CodeByIO | Who We Are",
+  description:
+    "CodebyIO is a digital agency that builds custom websites with clarity and care. Our work combines structure, strategy, and clean code.",
+};
 
 export default function Home() {
   return (

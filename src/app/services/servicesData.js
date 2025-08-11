@@ -7,6 +7,8 @@ export const services = [
   {
     id: "website-development",
     name: "Website Development",
+    metaDescription:
+      "Build fast, scalable, and fully custom websites. Our development process is structured, goal-focused, and optimized for long-term growth.",
     image: WEBSITE_DEVELOPMENT,
     heroBannerTitle: `
       Templates don’t ask *questions*. We start by *listening*
@@ -169,6 +171,8 @@ export const services = [
   {
     id: "website-mockup",
     name: "Website Mockup",
+    metaDescription:
+      "Visualize your website before development begins. Our mockups show layout, structure, and user flow to support better decisions.",
     image: WEBSITE_DEVELOPMENT,
     heroBannerTitle: `
       *See* it before you *build* it
@@ -289,6 +293,8 @@ export const services = [
   {
     id: "tech-consultancy",
     name: "Tech Consultancy",
+    metaDescription:
+      "Plan smarter with the right tech stack and structure. CodebyIO helps align systems, tools, and team roles to support digital growth.",
     image: WEBSITE_DEVELOPMENT,
     heroBannerTitle: `
       Build with a clear *plan*. Move with the *right* decision
@@ -412,6 +418,8 @@ export const services = [
   {
     id: "onestop-solution",
     name: "One-Stop Solution",
+    metaDescription:
+      "Fix bugs, add features, or improve your website without starting over. CodebyIO offers focused updates that keep your site running smoothly.",
     image: WEBSITE_DEVELOPMENT,
     heroBannerTitle: `
       Think of it like a *pit stop*
