@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: var(--primary-blue-color);
   padding: 20px;
-  gap: 1rem;
+  gap: 0.5rem;
   border-radius: 10px;
   height: 100%;
 }
@@ -16,12 +16,13 @@
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -1px;
+  height: 55px;
   color: var(--primary-green-color);
 }
 .core-value__description > p {
   margin: 0px;
   color: var(--secondary-color);
-  height: 85px;
+  min-height: 85px;
   text-align: center;
   line-height: 24px;
 }
@@ -34,6 +35,6 @@
     flex-direction: column;
   }
   .core-value__description > p {
-    height: 100px;
+    min-height: 100px;
   }
 }

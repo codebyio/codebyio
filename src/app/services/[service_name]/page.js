@@ -45,7 +45,12 @@ export default async function serviceDetail({ params }) {
           {serviceData?.keyPoints?.map((keyPoint, index) => {
             return (
               <Grid2
-                size={{ xs: 12, sm: 6, md: 4, lg: 4 }}
+                size={{
+                  xs: 12,
+                  sm: 6,
+                  md: serviceData?.keyGridCount ?? 4,
+                  lg: serviceData?.keyGridCount ?? 4,
+                }}
                 minWidth={{ xs: 300, md: "auto" }}
                 key={`${index}_${keyPoint.title}`}
               >
