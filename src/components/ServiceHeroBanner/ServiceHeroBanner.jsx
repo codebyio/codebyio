@@ -27,10 +27,10 @@ const ServiceHeroBanner = ({ title, description, features, image, alt }) => {
     <Section position='center' heroBanner serviceBanner>
       <Grid2 container alignItems='center'>
         <Grid2 size={{ xs: 12, sm: 12, md: 6 }}>
-          <h1 className={classes["title"]} data-aos='fade-right'>
+          <h1 className={classes["title"]} data-aos='fade-right' data-aos-delay='300'>
             {renderText(title)}
           </h1>
-          <p className={classes["description"]} data-aos='fade-down' data-aos-delay='400'>
+          <p className={classes["description"]} data-aos='fade-down' data-aos-delay='500'>
             {description}
           </p>
         </Grid2>
@@ -39,7 +39,7 @@ const ServiceHeroBanner = ({ title, description, features, image, alt }) => {
             src={image}
             className='img-fluid'
             data-aos='fade-left'
-            data-aos-delay='200'
+            data-aos-delay='300'
             alt={alt}
             unoptimized
           />

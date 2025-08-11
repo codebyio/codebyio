@@ -6,7 +6,7 @@ import FooterContent from "./FooterContent";
 
 const Footer = () => {
   const pathname = usePathname();
-  const variant = pathname === "/contact-us" ? "contact" : "default";
+  const variant = pathname === "/contact-us/" ? "contact" : "default";
 
   return <FooterContent variant={variant} />;
 };
