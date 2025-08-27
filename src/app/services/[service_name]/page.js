@@ -8,12 +8,9 @@ import { services } from "../servicesData";
 import SectionTitle from "@/components/shared/SectionTitle/SectionTitle";
 import FaqList from "@/components/shared/FaqList/FaqList";
 
-import DISCUSSION from "../../../../public/assets/images/DISCUSSION.png";
 import ServiceHeroBanner from "@/components/ServiceHeroBanner/ServiceHeroBanner";
-import Image from "next/image";
-import StepList from "@/components/shared/StepList/StepList";
-import KeyPoint from "@/components/KeyPoint/KeyPoint";
 import CoreValue from "@/components/shared/CoreValue/CoreValue";
+import PartnerJourney from "@/components/shared/PartnerJourney/PartnerJourney";
 
 export async function generateMetadata({ params }) {
   const { service_name } = params;
@@ -88,7 +85,7 @@ export default async function serviceDetail({ params }) {
       </Section>
       <Section fillBg>
         <SectionTitle title='Partner Journey' horizontalStyle inverted />
-        <StepList steps={serviceData.journey} inverted />
+        <PartnerJourney steps={serviceData.journey} inverted />
       </Section>
       <Section position='center'>
         <SectionTitle title={serviceData.faqTitle} />

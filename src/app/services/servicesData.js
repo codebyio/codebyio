@@ -69,6 +69,7 @@ export const services = [
     ],
     journey: [
       {
+        index: 1,
         title: "Reaching Out",
         description: `
           Most partnerships begin with a simple question: “Can you help us build a website?”
@@ -76,6 +77,7 @@ export const services = [
         `,
       },
       {
+        index: 2,
         title: "Consultation",
         description: `
           This is a free session designed to uncover your goals, challenges, and expectations.
@@ -83,6 +85,7 @@ export const services = [
         `,
       },
       {
+        index: 3,
         title: "Proposal and Alignment",
         description: `
           After the consultation, we put together a Website Development proposal tailored to your goals. It outlines your business objectives, project scope, technical needs, timeline, and estimated cost.
@@ -90,6 +93,7 @@ export const services = [
         `,
       },
       {
+        index: 4,
         title: "Getting Started Together",
         description: `
           Before development begins, we host a structured walkthrough to align expectations.
@@ -97,18 +101,21 @@ export const services = [
         `,
       },
       {
+        index: 5,
         title: "Mockup and Review",
         description: `
           A visual mockup is created to show how your website will look, flow, and function. This stage helps you evaluate structure and clarity, refine what’s needed, and ensure the site matches your vision.
         `,
       },
       {
+        index: 6,
         title: "Website Development",
         description: `
           With the mockup finalized, the Website Development starts based on the approved design and plan. Everything is custom-built with clean-code and structured logic to match your goals and user experience.
         `,
       },
       {
+        index: 7,
         title: "UAT (User Acceptance Testing)",
         description: `
           When Website Development is complete, the website will be handed over for testing.
@@ -116,12 +123,14 @@ export const services = [
         `,
       },
       {
+        index: 8,
         title: "Handover",
         description: `
           The final website is delivered with full access, setup assistance, and optional deployment support. Domain connection, configuration, or handover documentation can also be included based on your needs.
         `,
       },
       {
+        index: 9,
         title: "Aftercare Support",
         description: `
           After your website goes live, we stay available for light support and final adjustments. If there’s anything else you’d like to improve or explore, we’re happy to discuss next titles with you.
@@ -209,6 +218,7 @@ export const services = [
     ],
     journey: [
       {
+        index: 1,
         title: "Reaching Out",
         description: `
           A Website Mockup lets you explore the structure and look of your future website—before starting full development.
@@ -216,6 +226,7 @@ export const services = [
         `,
       },
       {
+        index: 2,
         title: "Consultation",
         description: `
           Our initial consultation is always free.
@@ -224,12 +235,14 @@ export const services = [
         `,
       },
       {
+        index: 3,
         title: "Design Research and Direction",
         description: `
           Using the input from our consultation, we conduct design research to shape a direction that fits your project. This includes competitor analysis, layout flow exploration, and studying what works best for your audience and business goals.
         `,
       },
       {
+        index: 4,
         title: "Proposal and Alignment",
         description: `
           With the direction already mapped out, we prepare a Website Mockup design proposal tailored to your goals. It includes the project scope, timeline, deliverables, and estimated cost.
@@ -237,6 +250,7 @@ export const services = [
         `,
       },
       {
+        index: 5,
         title: "Kick-off",
         description: `
           Before design work begins, we host a short kickoff session.
@@ -245,12 +259,14 @@ export const services = [
         `,
       },
       {
+        index: 6,
         title: "Website Mockup Development",
         description: `
           The mockup process begins based on the direction, structure, and goals aligned in the earlier steps. Each page is designed to reflect your business goals, speak to your audience, and guide users through a clear flow.
         `,
       },
       {
+        index: 7,
         title: "Project Delivery",
         description: `
           After the final review, we deliver your mockup in a structured and developer-ready format.
@@ -258,6 +274,7 @@ export const services = [
         `,
       },
       {
+        index: 8,
         title: "Aftercare Support",
         description: `
           Delivery is not the end of the journey.
@@ -342,6 +359,7 @@ export const services = [
     ],
     journey: [
       {
+        index: 1,
         title: "Reaching Out",
         description: `
           Planning a system upgrade or unsure which tools your team should use?
@@ -350,6 +368,7 @@ export const services = [
         `,
       },
       {
+        index: 2,
         title: "Consultation",
         description: `
           Our free consultation helps uncover where your technical strategy may need clarity.
@@ -358,6 +377,7 @@ export const services = [
         `,
       },
       {
+        index: 3,
         title: "Technical Assessment",
         description: `
           After learning your goals, we assess the technical landscape more deeply.
@@ -366,6 +386,7 @@ export const services = [
         `,
       },
       {
+        index: 4,
         title: "Proposal and Direction",
         description: `
           We then prepare a tailored Tech Consultancy proposal. It includes a detailed scope, timeline, deliverables, and suggested focus areas.
@@ -373,6 +394,7 @@ export const services = [
         `,
       },
       {
+        index: 5,
         title: "Active Support",
         description: `
           This is where the Tech Consultancy service moves into execution.
@@ -381,6 +403,7 @@ export const services = [
         `,
       },
       {
+        index: 6,
         title: "Handoff",
         description: `
           At the end of our engagement, we deliver a full Tech Consultancy handover package.
@@ -389,6 +412,7 @@ export const services = [
         `,
       },
       {
+        index: 7,
         title: "Aftercare Support",
         description: `
           Our Tech Consultancy aftercare support does not stop at handoff.
@@ -454,13 +478,14 @@ export const services = [
     ],
     journey: [
       {
+        index: 1,
         title: "Reaching Out",
         description: `
-          Most partnerships begin with a simple question: “Can you help us build a website?”
-          The short answer is yes. But before discussing features or timelines, we focus on understanding what your website is meant to achieve.
+          Not every project needs a full rebuild. Sometimes it is a bug that slows you down, a new feature you want to add, or a landing page for your next campaign. That is when this service comes in.
         `,
       },
       {
+        index: 2,
         title: "Consultation",
         description: `
           This is a free session designed to uncover your goals, challenges, and expectations.
@@ -468,48 +493,38 @@ export const services = [
         `,
       },
       {
-        title: "Proposal and Alignment",
+        index: 3,
+        title: "Quick Assessment",
         description: `
-          After the consultation, we put together a Website Development proposal tailored to your goals. It outlines your business objectives, project scope, technical needs, timeline, and estimated cost.
-          Once everything is aligned and the contract is signed, the project is ready to begin.
+          Our team reviews your existing setup to see what is needed and the best way to implement changes without breaking what already works.
         `,
       },
       {
-        title: "Getting Started Together",
+        index: 4,
+        title: "Proposal and Agreement",
         description: `
-          Before development begins, we host a structured walkthrough to align expectations.
-          This includes introducing the team, reviewing timelines, and confirming how everything will move forward.
+          You receive a straightforward proposal with scope, timeline, and cost. Once approved, work starts right away.
         `,
       },
       {
-        title: "Mockup and Review",
+        index: 5,
+        title: "Execution",
         description: `
-          A visual mockup is created to show how your website will look, flow, and function. This stage helps you evaluate structure and clarity, refine what’s needed, and ensure the site matches your vision.
+          We implement the updates using clean code and structured workflow, while keeping you informed on progress.
         `,
       },
       {
-        title: "Website Development",
+        index: 6,
+        title: "Delivery",
         description: `
-          With the mockup finalized, the Website Development starts based on the approved design and plan. Everything is custom-built with clean-code and structured logic to match your goals and user experience.
+          Your changes are delivered in a ready-to-use format, fully tested and documented for easy application.
         `,
       },
       {
-        title: "UAT (User Acceptance Testing)",
-        description: `
-          When Website Development is complete, the website will be handed over for testing.
-          You can explore the live version, identify any adjustments, and confirm that all features work smoothly before launch.
-        `,
-      },
-      {
-        title: "Handover",
-        description: `
-          The final website is delivered with full access, setup assistance, and optional deployment support. Domain connection, configuration, or handover documentation can also be included based on your needs.
-        `,
-      },
-      {
+        index: 7,
         title: "Aftercare Support",
         description: `
-          After your website goes live, we stay available for light support and final adjustments. If there’s anything else you’d like to improve or explore, we’re happy to discuss next titles with you.
+          If you need additional tweaks, more features, or another landing page in the future, we are ready to support you again.
         `,
       },
     ],

@@ -60,7 +60,7 @@ export default function Home() {
               title='Find Us'
               subtitle='Don’t worry we work remotely'
               icon={<MdLocationPin />}
-              link='https://www.google.com/maps/place/Jakarta,+Daerah+Khusus+Ibukota+Jakarta/data=!4m2!3m1!1s0x2e69f3e945e34b9d:0x5371bf0fdad786a2?sa=X&ved=1t:242&ictx=111'
+              link='https://www.google.com/maps/place/BSD+Central+Business+District/@-6.3004279,106.6243017,15z/data=!4m10!1m2!2m1!1sbsd!3m6!1s0x2e69fb4de7e40e41:0xa821ece45c882e06!8m2!3d-6.3004279!4d106.6433561!15sCgNic2SSAQ9idXNpbmVzc19jZW50ZXKqATQQASoHIgNic2QoADIeEAEiGs5vyo1L0fHTmWXNzewTQsEkHZeFZb_0upi6MgcQAiIDYnNk4AEA!16s%2Fg%2F11f3czmt7l?hl=en&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D'
               linkLabel='View on Google Maps'
             />
           </Grid2>
