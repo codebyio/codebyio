@@ -2,7 +2,7 @@ import classes from "./QuoteBlock.module.css";
 
 const QuoteBlock = ({ quote, author }) => {
   return (
-    <div className={classes["quote-block"]}>
+    <div className={classes["quote-block"]} data-aos='fade-right' data-aos-delay='100'>
       <q>
         <i>{quote}</i>
       </q>

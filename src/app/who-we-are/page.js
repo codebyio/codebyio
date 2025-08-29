@@ -119,7 +119,7 @@ export default function Home() {
               `}
               author='Indra Oei'
             />
-            <p className={classes["founder-bio"]}>
+            <p className={classes["founder-bio"]} data-aos='fade-right' data-aos-delay='150'>
               Indra Oei started coding out of pure passion and built over seven years of experience
               as a Software Engineer. He founded CodebyIO, a website development and tech
               consultancy company, with a commitment to raise standards in the digital industry. For
@@ -128,7 +128,14 @@ export default function Home() {
             </p>
           </Grid2>
           <Grid2 size={{ xs: 12, md: 5 }}>
-            <Image src={FOUNDER} className='img-fluid' alt='Indra Oei' unoptimized />
+            <Image
+              src={FOUNDER}
+              className='img-fluid'
+              data-aos='fade-left'
+              data-aos-delay='100'
+              alt='Indra Oei'
+              unoptimized
+            />
           </Grid2>
         </Grid2>
       </Section>
