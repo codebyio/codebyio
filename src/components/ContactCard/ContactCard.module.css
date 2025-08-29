@@ -32,7 +32,15 @@
   margin-bottom: 2rem;
   color: var(--secondary-color);
 }
-.contact-card a {
+.contact-card__link-wrapper {
+  min-height: 42px;
+}
+.contact-card__link {
+  display: block;
   font-family: "JetsBrain";
   color: var(--secondary-color);
+  margin-bottom: 0.25rem;
+}
+.contact-card__link:last-child {
+  margin-bottom: 0px;
 }

@@ -8,6 +8,11 @@ import WindowCard from "@/components/shared/WindowCard/WindowCard";
 import CoreValue from "@/components/shared/CoreValue/CoreValue";
 
 import CORE_VALUES from "../../../public/assets/images/CORE_VALUES.png";
+import FOUNDER from "../../../public/assets/images/FOUNDER.png";
+import SectionTitle from "@/components/shared/SectionTitle/SectionTitle";
+import QuoteBlock from "@/components/shared/QuoteBlock/QuoteBlock";
+
+import classes from "./WhoWeAre.module.css";
 
 export const metadata = {
   title: "CodeByIO | Who We Are",
@@ -96,6 +101,34 @@ export default function Home() {
                 />
               </Grid2>
             </Grid2>
+          </Grid2>
+        </Grid2>
+      </Section>
+      <Section>
+        <Grid2
+          container
+          spacing={3}
+          alignItems='center'
+          flexDirection={{ xs: "column-reverse", md: "row" }}
+        >
+          <Grid2 size={{ xs: 12, md: 7 }}>
+            <SectionTitle title='Meet Our Founder' horizontalStyle />
+            <QuoteBlock
+              quote={`
+                I believe every business deserves digital solutions that are honest, sustainable, and built to last. 
+              `}
+              author='Indra Oei'
+            />
+            <p className={classes["founder-bio"]}>
+              Indra Oei started coding out of pure passion and built over seven years of experience
+              as a Software Engineer. He founded CodebyIO, a website development and tech
+              consultancy company, with a commitment to raise standards in the digital industry. For
+              him, quality is more than clean code. It means transparency, fairness, and building
+              digital systems that businesses can trust and grow with.
+            </p>
+          </Grid2>
+          <Grid2 size={{ xs: 12, md: 5 }}>
+            <Image src={FOUNDER} className='img-fluid' alt='Indra Oei' unoptimized />
           </Grid2>
         </Grid2>
       </Section>
